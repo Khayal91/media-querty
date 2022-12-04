@@ -1,0 +1,70 @@
+.main{
+    width: 612px;
+    min-height: 170px;
+    background-color: white;
+    float: left;
+    
+}
+.header{
+    width: 603px;
+    min-height: 95px;
+    background-color: rgba(248, 182, -4, 1.73);
+    float: left;
+    margin: 5px;
+    
+}
+.center{
+    width: 277px;
+    min-height: 301px;
+    background-color: rgba(248, 182, -4, 1.73);
+    float: left;
+    margin: 5px;
+    
+    
+}
+.left{
+    width: 150px;
+    min-height: 300px;
+    background-color: rgba(248, 182, -4, 1.73);
+    float: left;
+    margin: 5px;
+}
+.right{
+    width: 154px;
+    min-height: 300px;
+    background-color: rgba(248, 182, -4, 1.73);
+    float: right;
+    margin: 5px;
+}
+.footer{
+    width: 603px;
+    min-height: 97px;
+    background-color: rgba(248, 182, -4, 1.73);
+    float: left;
+    margin: 5px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    .main{
+        min-height: auto;
+    }
+    .header{
+        width: 600px;
+        min-height: auto;
+    }
+    .center{
+        width: 600px;
+        min-height: auto;
+    }
+    .left{
+        width: 600px;
+        min-height: auto;
+    }
+    .right{
+        width: 600px;
+        min-height: auto;
+    }
+    .footer{
+        min-height: auto;
+    }
+}
